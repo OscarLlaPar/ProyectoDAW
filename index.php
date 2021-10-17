@@ -19,7 +19,7 @@ and open the template in the editor.
         <div class="cont">
                 <div class="asig" id="DAW"><p class="sigla">DAW</p><p>Despliegue de Aplicaciones Web</p></div>
                 <div class="asig" id="DIW"><p class="sigla">DIW</p><p>Desarrollo de Interfaces Web</p></div>
-                <div class="asig" id="DWEC"><p class="sigla">DWEC</p><p>Deasrrollo Web en Entorno Cliente</p></div>
+                <div class="asig" id="DWEC"><a href="ProyectoDWEC/indexProyectoDWEC.php"><p class="sigla">DWEC</p></a><p>Deasrrollo Web en Entorno Cliente</p></div>
                 <div class="asig" id="DWES"><a href="ProyectoDWES/indexProyectoDWES.php"><p class="sigla">DWES</p></a><p>Desarrollo Web en Entorno Servidor</p></div>
                 <div class="asig" id="EIE"><p class="sigla">EIE</p><p>Empresa e Iniciativa Emprendedora</p></div>
         </div>
