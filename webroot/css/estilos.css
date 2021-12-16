@@ -1,18 +1,17 @@
 body{
-	background-image: url('/webroot/img/fondo1.jpg');
-        background-size: 100%;
-        background-repeat: no-repeat;
 	color: white;
 	text-align: center;
+        background-color: black;
 	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         margin: 0px;
+        height:100vh;
+        display:flex;
+        flex-flow: column;
 }
 .titulo{
     margin: 0;
-    position: absolute;
-    top: 0px;
     width: 100%;
-    height: 150px;
+    height: 20vh;
 }
 div{
 	background-color: black;
@@ -33,22 +32,29 @@ p{
 	width: 18%;
 	height: 100%;
 	/*display: inline;*/
-	position: relative;
 }
 .cont{
-	position: absolute;
+	height:15vh;
         width:100%;
-        top: 150px;
+        border-top: solid white 1px;
+        border-bottom: solid white 1px;
+}
+.info{
+    border: solid white 1px;
+    padding:15px;
+    margin:25px 50px;
+    width: 25vw;
+    text-align: left;
 }
 footer{
 	background-color: black;
         font-family: 'Times New Roman', Times, serif;
+        border-top:solid white 1px;
 	font-size: 12px;
-	position: absolute;
-	top: 90%;
-        bottom: 0%;
+        position: absolute;
+        bottom: 0;
         width: 100%;
-        height: 100px;
+        height: 10vh;
 	text-align: left;
 }
 img{
@@ -63,13 +69,13 @@ img{
 }
 #arriba{
     width: 150px;
-    height: 150px;
+    height: 20vh;
     top: 0;
     left: 0px;
 }
 #abajo{
     width: 100px;
-    height: 100px;
+    height: 10vh;
     right: 0px;
     bottom: 0%;
 }
